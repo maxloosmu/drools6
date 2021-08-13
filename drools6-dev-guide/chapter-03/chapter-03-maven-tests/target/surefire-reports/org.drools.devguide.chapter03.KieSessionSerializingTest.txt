@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.drools.devguide.chapter03.KieSessionSerializingTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.429 sec - in org.drools.devguide.chapter03.KieSessionSerializingTest

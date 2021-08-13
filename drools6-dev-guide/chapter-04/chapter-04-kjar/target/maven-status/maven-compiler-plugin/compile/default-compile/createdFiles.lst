@@ -1,0 +1,7 @@
+org\drools\devguide\eshop\traits\TraitableOrder.class
+org\drools\devguide\eshop\service\EShopConfigService.class
+org\drools\devguide\eshop\service\EmailService.class
+org\drools\devguide\eshop\traits\TraitableItem.class
+org\drools\devguide\eshop\types\IsGoldCustomer.class
+org\drools\devguide\eshop\types\IsLargeOrder.class
+org\drools\devguide\eshop\types\IsLowRangeItem.class

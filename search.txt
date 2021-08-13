@@ -1,0 +1,7 @@
+drools6-dev-guide/chapter-09/chapter-09-tests/src/test/java/org/drools/devguide/chapter09/PhreakInspectorTest.java:        this.doTest("AlphaORKBase", "alpha-or-phreak.viz");
+drools6-dev-guide/chapter-09/chapter-09-tests/src/test/java/org/drools/devguide/chapter09/PhreakInspectorTest.java:        this.doTest("BetaORSplitKBase", "beta-or-split-phreak.viz");
+drools6-dev-guide/chapter-09/chapter-09-tests/src/test/java/org/drools/devguide/chapter09/PhreakInspectorTest.java:        this.doTest("NotNode3KBase", "not-node3-phreak.viz");
+drools6-dev-guide/phreak-inspector/src/test/java/org/drools/devguide/phreakinspector/PhreakInspectorTest.java:        try (FileWriter fileWriter = new FileWriter(new File("/tmp","phreak.viz"))) {
+drools6-dev-guide/phreak-inspector/target/surefire-reports/org.drools.devguide.phreakinspector.PhreakInspectorTest.txt:java.io.FileNotFoundException: \tmp\phreak.viz (The system cannot find the path specified)
+drools6-dev-guide/phreak-inspector/target/surefire-reports/TEST-org.drools.devguide.phreakinspector.PhreakInspectorTest.xml:    <error message="\tmp\phreak.viz (The system cannot find the path specified)" type="java.io.FileNotFoundException"><![CDATA[java.io.FileNotFoundException: \tmp\phreak.viz (The system cannot find the path specified)
+Binary file drools6-dev-guide/phreak-inspector/target/test-classes/org/drools/devguide/phreakinspector/PhreakInspectorTest.class matches

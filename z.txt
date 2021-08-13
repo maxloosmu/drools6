@@ -1,0 +1,45 @@
+
+
+
+where java
+echo %JAVA_HOME%
+
+git clone https://bitbucket.org/drools-6-developer-guide/drools6-dev-guide.git
+
+cd\Users\Max\src\drools6
+
+cd src\drools6
+cd drools6-dev-guide
+
+mvn clean install
+
+cd chapter-02
+mvn -B archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=org.drools.devguide -DartifactId=myfirst-drools-project
+
+
+
+----------------------------------
+
+\tmp\phreak.viz
+root@MAXLEN:/mnt/c/Users/Max/src/drools6#
+
+find . -name "*.viz"
+find * -name "*.viz"
+
+root@MAXLEN:/mnt/c/Users/Max/src/drools6#
+
+grep -R "phreak.viz" drools6-dev-guide/* > search.txt
+
+
+
+----------------------------------
+
+
+
+
+
+
+
+
+
+

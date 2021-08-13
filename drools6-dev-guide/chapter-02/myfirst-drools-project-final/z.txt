@@ -1,0 +1,21 @@
+
+
+
+
+
+cd\
+cd Users\Max\src\drools6\drools6-dev-guide\chapter-02\myfirst-drools-project-final
+
+mvn clean install
+
+
+
+
+
+
+
+
+
+
+
+

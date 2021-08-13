@@ -1,0 +1,3 @@
+org\drools\devguide\eshop\service\OrderService.class
+org\drools\devguide\eshop\service\AuditService.class
+org\drools\devguide\eshop\service\SuspiciousOperationService.class

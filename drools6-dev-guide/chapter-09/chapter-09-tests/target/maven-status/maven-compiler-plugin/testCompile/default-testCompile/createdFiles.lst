@@ -1,0 +1,4 @@
+org\drools\devguide\chapter09\PhreakInspectorBaseTest.class
+org\drools\devguide\chapter09\PhreakInspectorTest.class
+org\drools\devguide\chapter09\PhreakInspectorQueryTest.class
+org\drools\devguide\chapter09\BackwardChainingTest.class

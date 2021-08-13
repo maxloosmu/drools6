@@ -1,0 +1,3 @@
+org\drools\devguide\eshop\events\TransactionEvent.class
+org\drools\devguide\other\events\HeartAttackEvent.class
+org\drools\devguide\other\events\HeartBeatEvent.class

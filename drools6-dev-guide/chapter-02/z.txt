@@ -1,0 +1,49 @@
+
+
+
+MUST RUN FROM CMD, POWERSHELL DOES NOT WORK:
+
+cd chapter-02
+mvn -B archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=org.drools.devguide -DartifactId=myfirst-drools-project 
+
+mvn -B -X archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=org.drools.devguide -DartifactId=myfirst-drools-project > debug.txt
+
+----------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------
+
+\tmp\phreak.viz
+root@MAXLEN:/mnt/c/Users/Max/src/drools6#
+
+find . -name "*.viz"
+find * -name "*.viz"
+
+root@MAXLEN:/mnt/c/Users/Max/src/drools6#
+
+grep -R "phreak.viz" drools6-dev-guide/* > search.txt
+
+
+
+----------------------------------
+
+
+
+
+
+
+
+
+
+

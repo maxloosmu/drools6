@@ -1,0 +1,5 @@
+org\drools\devguide\chapter07\DSLTest.class
+org\drools\devguide\chapter07\RuleTemplatesTest.class
+org\drools\devguide\chapter07\ClassificationTemplateModel.class
+org\drools\devguide\chapter07\DecisionTablesTest.class
+org\drools\devguide\chapter07\PMMLTest.class

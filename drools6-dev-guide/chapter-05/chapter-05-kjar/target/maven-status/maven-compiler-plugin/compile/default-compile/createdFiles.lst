@@ -1,0 +1,5 @@
+org\drools\devguide\chapter05\evaluator\ContainsItemEvaluatorDefinition.class
+org\drools\devguide\chapter05\acc\BiggestOrderFunction$Context.class
+org\drools\devguide\chapter05\evaluator\ContainsItemEvaluator.class
+org\drools\devguide\chapter05\acc\BiggestOrderFunction.class
+org\drools\devguide\chapter05\utils\CustomerUtils.class

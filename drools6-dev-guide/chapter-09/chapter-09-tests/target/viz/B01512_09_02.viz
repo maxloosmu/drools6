@@ -1,0 +1,106 @@
+digraph G {
+        node [shape=record];
+        rankdir=LR
+        layout=dot
+
+/* for layout options goto
+ * http://www.graphviz.org/cgi-bin/man?dot
+ *
+ * dot - filter for drawing directed graphs
+ * neato - filter for drawing undirected graphs
+ * twopi - filter for radial layouts of graphs
+ * circo - filter for circular layout of graphs
+ * fdp - filter for drawing undirected graphs
+ * sfdp - filter for drawing large undirected graphs
+ * patchwork - filter for tree maps
+ * osage - filter for tree maps
+ */
+
+            subgraph TERMINAL {
+                    rank=same;
+                        G5[shape=none
+                            label=<<table border = "0" cellspacing="0">
+                                    <tr><td port="port1" border="1" bgcolor="#FFB4F8">RTN</td></tr>
+                                    <tr><td port="port2" border="1" bgcolor="white">Sample Rule 1</td></tr>
+                            </table>>
+                        ];
+
+
+                        G8[shape=none
+                            label=<<table border = "0" cellspacing="0">
+                                    <tr><td port="port1" border="1" bgcolor="#FFB4F8">RTN</td></tr>
+                                    <tr><td port="port2" border="1" bgcolor="white">Sample Rule 2</td></tr>
+                            </table>>
+                        ];
+
+
+
+            }
+
+
+            subgraph OTN {
+                    rank=same;
+                        G2[shape=none
+                            label=<<table border = "0" cellspacing="0">
+                                    <tr><td port="port1" border="1" bgcolor="#00D1FF">OTN</td></tr>
+                                    <tr><td port="port2" border="1" bgcolor="white">org.drools.core.reteoo.InitialFactImpl</td></tr>
+                            </table>>
+                        ];
+
+
+                        G3[shape=none
+                            label=<<table border = "0" cellspacing="0">
+                                    <tr><td port="port1" border="1" bgcolor="#00D1FF">OTN</td></tr>
+                                    <tr><td port="port2" border="1" bgcolor="white">org.drools.devguide.eshop.model.Customer</td></tr>
+                            </table>>
+                        ];
+
+
+                        G6[shape=none
+                            label=<<table border = "0" cellspacing="0">
+                                    <tr><td port="port1" border="1" bgcolor="#00D1FF">OTN</td></tr>
+                                    <tr><td port="port2" border="1" bgcolor="white">org.drools.devguide.eshop.model.Order</td></tr>
+                            </table>>
+                        ];
+
+
+
+            }
+
+
+            subgraph EP {
+                    rank=same;
+                        G1[shape=none
+                            label=<<table border = "0" cellspacing="0">
+                                    <tr><td port="port1" border="1" bgcolor="#0DFFE7">EP</td></tr>
+                                    <tr><td port="port2" border="1" bgcolor="white">DEFAULT</td></tr>
+                            </table>>
+                        ];
+
+
+
+            }
+
+
+
+                        G1 -> G3 
+
+
+                        G1 -> G2 
+
+
+                        G1 -> G6 
+
+
+
+                        G3 -> G5 
+
+
+
+                        G6 -> G8 
+
+
+
+
+
+}

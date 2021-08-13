@@ -1,0 +1,7 @@
+org\drools\devguide\BaseTest.class
+org\drools\devguide\util\OrderBuilder.class
+org\drools\devguide\util\factories\ModelFactory.class
+org\drools\devguide\util\OrderLineBuilder.class
+org\drools\devguide\util\CustomerBuilder.class
+org\drools\devguide\util\ItemBuilder.class
+org\drools\devguide\util\ObjectHolder.class

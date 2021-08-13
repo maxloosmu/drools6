@@ -1,0 +1,10 @@
+org\drools\devguide\chapter10\ProcessOrderTest.class
+org\drools\devguide\chapter10\SimpleProcessTest$1.class
+org\drools\devguide\chapter10\SimpleProcessTest$AsyncManagerApprovalSimpleWorkItemHandler.class
+org\drools\devguide\chapter10\SimpleProcessTest$ManagerApprovalSimpleWorkItemHandler.class
+org\drools\devguide\chapter10\SystemOutProcessEventListener.class
+org\drools\devguide\chapter10\BusinessRuleTasksTest.class
+org\drools\devguide\chapter10\ProcessInstancesAsFactsTest$HumanTaskExampleWorkItemHandler.class
+org\drools\devguide\chapter10\ProcessOrderTest$HumanTaskExampleWorkItemHandler.class
+org\drools\devguide\chapter10\SimpleProcessTest.class
+org\drools\devguide\chapter10\ProcessInstancesAsFactsTest.class

@@ -1,0 +1,172 @@
+digraph G {
+        node [shape=record];
+        rankdir=LR
+        layout=dot
+
+/* for layout options goto
+ * http://www.graphviz.org/cgi-bin/man?dot
+ *
+ * dot - filter for drawing directed graphs
+ * neato - filter for drawing undirected graphs
+ * twopi - filter for radial layouts of graphs
+ * circo - filter for circular layout of graphs
+ * fdp - filter for drawing undirected graphs
+ * sfdp - filter for drawing large undirected graphs
+ * patchwork - filter for tree maps
+ * osage - filter for tree maps
+ */
+
+            subgraph TERMINAL {
+                    rank=same;
+                        G8[shape=none
+                            label=<<table border = "0" cellspacing="0">
+                                    <tr><td port="port1" border="1" bgcolor="#D1ECFF">QTN</td></tr>
+                                    <tr><td port="port2" border="1" bgcolor="white">isItemContainedIn</td></tr>
+                            </table>>
+                        ];
+
+
+                        G11[shape=none
+                            label=<<table border = "0" cellspacing="0">
+                                    <tr><td port="port1" border="1" bgcolor="#D1ECFF">QTN</td></tr>
+                                    <tr><td port="port2" border="1" bgcolor="white">isItemContainedIn</td></tr>
+                            </table>>
+                        ];
+
+
+
+            }
+
+
+            subgraph A {
+                    rank=same;
+                        G4[shape=none
+                            label=<<table border = "0" cellspacing="0">
+                                    <tr><td port="port1" border="1" bgcolor="#F4F000">ALPHA</td></tr>
+                                    <tr><td port="port2" border="1" bgcolor="white">QueryNameConstraint for isItemContainedIn</td></tr>
+                            </table>>
+                        ];
+
+
+
+            }
+
+
+            subgraph B {
+                    rank=same;
+                        G7[shape=none
+                            label=<<table border = "0" cellspacing="0">
+                                    <tr><td port="port1" border="1" bgcolor="#FFA858">BETA</td></tr>
+                                    <tr><td port="port2" border="1" bgcolor="white">part == p,</td></tr>
+                            </table>>
+                        ];
+
+
+                        G9[shape=none
+                            label=<<table border = "0" cellspacing="0">
+                                    <tr><td port="port1" border="1" bgcolor="#FFA858">BETA</td></tr>
+                                    <tr><td port="port2" border="1" bgcolor="white">part == p,</td></tr>
+                            </table>>
+                        ];
+
+
+                        G10[shape=none
+                            label=<<table border = "0" cellspacing="0">
+                                    <tr><td port="port1" border="1" bgcolor="#FF8FFC">QUERY_ELEMENT</td></tr>
+                                    <tr><td port="port2" border="1" bgcolor="white">[QueryElementNode(10, isItemContainedIn)]</td></tr>
+                            </table>>
+                        ];
+
+
+
+            }
+
+
+            subgraph OTN {
+                    rank=same;
+                        G2[shape=none
+                            label=<<table border = "0" cellspacing="0">
+                                    <tr><td port="port1" border="1" bgcolor="#00D1FF">OTN</td></tr>
+                                    <tr><td port="port2" border="1" bgcolor="white">org.drools.core.reteoo.InitialFactImpl</td></tr>
+                            </table>>
+                        ];
+
+
+                        G3[shape=none
+                            label=<<table border = "0" cellspacing="0">
+                                    <tr><td port="port1" border="1" bgcolor="#00D1FF">OTN</td></tr>
+                                    <tr><td port="port2" border="1" bgcolor="white">org.drools.core.base.DroolsQuery</td></tr>
+                            </table>>
+                        ];
+
+
+                        G6[shape=none
+                            label=<<table border = "0" cellspacing="0">
+                                    <tr><td port="port1" border="1" bgcolor="#00D1FF">OTN</td></tr>
+                                    <tr><td port="port2" border="1" bgcolor="white">org.drools.devguide.chapter09.model.IsPartOf</td></tr>
+                            </table>>
+                        ];
+
+
+
+            }
+
+
+            subgraph EP {
+                    rank=same;
+                        G1[shape=none
+                            label=<<table border = "0" cellspacing="0">
+                                    <tr><td port="port1" border="1" bgcolor="#0DFFE7">EP</td></tr>
+                                    <tr><td port="port2" border="1" bgcolor="white">DEFAULT</td></tr>
+                            </table>>
+                        ];
+
+
+
+            }
+
+
+
+                        G1 -> G6 
+
+
+                        G1 -> G2 
+
+
+                        G1 -> G3 
+
+
+
+                        G3 -> G4 
+
+
+
+                        G4 -> G7 
+
+
+                        G4 -> G9 
+
+
+
+                        G6 -> G7 
+
+
+                        G6 -> G9 
+
+
+
+                        G7 -> G8 
+
+
+
+                        G9 -> G10 
+
+
+
+                        G10 -> G11 
+
+
+
+
+
+}

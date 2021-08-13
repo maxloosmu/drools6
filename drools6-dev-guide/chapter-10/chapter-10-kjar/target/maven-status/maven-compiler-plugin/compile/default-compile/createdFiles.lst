@@ -1,0 +1,4 @@
+org\drools\devguide\chapter08\services\connectors\UpdateStockServiceImpl.class
+org\drools\devguide\chapter08\services\connectors\OrderServiceImpl.class
+org\drools\devguide\chapter08\services\connectors\AuthorizeOrderServiceImpl.class
+org\drools\devguide\chapter08\services\connectors\NotificationServiceImpl.class
