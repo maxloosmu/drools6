@@ -9,6 +9,9 @@ cd\Users\Max\src\drools6\drools6-dev-guide\chapter-02
 cd chapter-02
 mvn -B archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=org.drools.devguide -DartifactId=myfirst-drools-project 
 
+
+NO NEED FOR THIS:
+
 mvn -B -X archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DgroupId=org.drools.devguide -DartifactId=myfirst-drools-project > debug.txt
 
 ----------------------------------

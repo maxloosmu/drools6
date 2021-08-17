@@ -1,4 +1,33 @@
-// package org.drools.devguide;
+package org.drools6.book;
+
+public class App {
+  @Inject
+  @KSession
+  KieSession kSession;
+  public void go(PrintStream out){
+    Item item = new Item("A", 123.0,234.0);
+    out.println( "Item Category: " + item.getCategory());
+    kSession.insert(item);
+    int fired = kSession.fireAllRules();
+    out.println( "Number of Rules executed = " + fired );
+    out.println( "Item Category: " + item.getCategory());
+  }
+  public static void main( String[] args )
+  {
+    // Bootstraping the WELD CDI container
+    Weld w = new Weld();
+    WeldContainer wc = w.initialize();
+    App bean = wc.instance().select(App.class).get();
+    bean.go(System.out);
+    w.shutdown();
+  }
+}
+
+
+
+
+// package org.drools.devguide; // this is wrong
+// this may be correct:
 /**
  * Hello world!
  *
@@ -11,6 +40,8 @@
 //     }
 // }
 
+// this is correct:
+/*
 package org.drools6.book;
 // import org.drools.devguide.eshop.model;
 // package org.drools.devguide;
@@ -40,3 +71,4 @@ public class App {
     System.out.println( "Item Category: " + item0.getCategory());
   }
 }
+*/

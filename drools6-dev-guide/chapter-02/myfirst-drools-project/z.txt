@@ -4,6 +4,8 @@
 cd\
 cd Users\Max\src\drools6\drools6-dev-guide\chapter-02\myfirst-drools-project
 
+mvn clean compile
+
 mvn exec:java -Dexec.mainClass="org.drools6.book.App"
 
 
